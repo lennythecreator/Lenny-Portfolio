@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Outfit:wght@100..900&display=swap');
+
+main{
+    margin-top: 20px;
+}
+
+
+button{
+    padding: 8px 16px;
+    border-radius: 16px;
+    cursor: pointer;
+    border: none;
+    background-color: black;
+    color: white;
+    font-family:  "Outfit", sans-serif;
+}
+.projects{
+    
+    display: flex;
+    flex-wrap: wrap;
+}
+.project{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin: 8px;
+    padding: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    min-width: 232px;
+    height: 160px;
+}
