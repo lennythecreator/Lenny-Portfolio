@@ -68,6 +68,19 @@ a{
     margin-top: 20px;
 }
 
+.socials{
+    display: flex;
+    gap: 20px;
+}
+
+.socials > a{
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    align-items: center;
+    color:#333;
+    font-size: 1.5rem;
+}
 .jobs{
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -100,6 +113,7 @@ a{
    display: flex;
    flex-wrap: wrap;
 }
+
 
 @media only screen and (min-width: 768px) {
     /* Styles for laptops and desktops */

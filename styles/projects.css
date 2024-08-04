@@ -4,6 +4,10 @@ main{
     margin-top: 20px;
 }
 
+section{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
 
 button{
     padding: 8px 16px;
