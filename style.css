@@ -160,9 +160,30 @@ a{
 }
 
 
-@media only screen and (min-width: 768px) {
-    /* Styles for laptops and desktops */
-    /* Add your code here */
+@media (max-width: 768px) {
+    .nav-item{
+        display: none; /* Hide the navigation on mobile devices */
+    }
+    .hero-section{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .image-container{
+        display: flex;
+        
+        justify-content: center;
+        align-items: center;
+        width: 90vw;
+        height: 300px;
+    }
+    .hero-img{
+        margin-left: auto;
+        margin-right: auto;
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+    }
 }
 
 @media only screen and (max-width: 767px) {
