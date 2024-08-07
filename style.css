@@ -112,10 +112,11 @@ a{
 }
 .jobs{
     display: flex;
+    flex-wrap: wrap;
     gap: 8px;
 }
 .job{
-    /* width: 500px; */
+    width: 408px; 
     padding: 20px;
     border: #7e7e7e 2px solid;
     border-radius: 8px;
@@ -124,10 +125,17 @@ a{
 }
 .job-title{
     color:#333;
+    margin-top: 12px;
+    margin-bottom: 12px;
 }
 
 .job-desc{
   
+}
+
+.company{
+    margin-top: 8px;
+    margin-bottom: 8px;
 }
 .skills{
     display: flex;
