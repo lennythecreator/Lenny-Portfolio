@@ -19,6 +19,7 @@ body {
 
 main{
     margin-top: 32px;
+    /* animation: fade 0.8s ease-in-out; */
 }
 .header {
     background: rgba(255, 255, 255, 0.2);
@@ -132,6 +133,7 @@ a{
     display: flex;
     flex-wrap: wrap;
     gap: 8px;
+    animation: fade 0.8s ease-in-out;
 }
 .job{
     width: 408px; 
@@ -162,10 +164,16 @@ a{
     flex-direction: column;
     margin-top: 20px;
     gap: 1.5rem;
+    
+}
+
+.my-skills{
+    animation: fade 0.8s ease-in-out;
 }
 .my-skills > h2{
     margin-top: 8px;
     margin-bottom: 8px;
+    
 }
 .my-skills > ul{
    display: flex;
@@ -177,6 +185,18 @@ a{
     flex-direction: row;
     gap: 12px;
     align-items: center;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+        scale: 0.5;
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+        scale: 1;
+    }
 }
 
 @keyframes floatright {
