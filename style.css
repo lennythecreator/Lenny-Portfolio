@@ -13,11 +13,12 @@ body {
     font-family:  "Outfit", sans-serif;
     padding: 16px;
     height: 100vh;
+    
 }
 
 
 main{
-    margin-top: 20px;
+    margin-top: 32px;
 }
 .header {
     background: rgba(255, 255, 255, 0.2);
@@ -61,6 +62,8 @@ ul {
 
 .hero-section{
     display: flex;
+    margin-top: 20px;
+    margin-bottom: auto;
     gap: 20px;
 }
 
@@ -73,8 +76,8 @@ ul {
 
 .hero-section > article > h1{
     font-size: 2.5rem;
-    margin-top: 12px;
-    margin-bottom: 12px;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .image-container {
@@ -133,10 +136,11 @@ a{
 .job{
     width: 408px; 
     padding: 20px;
-    border: #7e7e7e 2px solid;
+    /* border: #7e7e7e 0px solid; */
     border-radius: 8px;
     margin: 8px;
     transition: background 0.3s ease;
+    box-shadow: 0px 0px 3px 0.5px rgba(0, 0, 0, 0.2);
 }
 .job-title{
     color:#333;
